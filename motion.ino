@@ -134,16 +134,10 @@ void playTrack(uint8_t track) {
    DFPlayer.play(track);
    delay(30);
    int file = DFPlayer.readCurrentFileNumber();
-
    Serial.print("Track:");Serial.println(track);
    Serial.print("File:");Serial.println(file);
-
-   //while (file != track) {
-   //  DFPlayer.play(track);
-   //  delay(200);
-   //  file = DFPlayer.readCurrentFileNumber();
-  // }
 }
+
 // Check the current state of DFPlayer
 void checkState(uint8_t type, int value){
   switch (type) {
