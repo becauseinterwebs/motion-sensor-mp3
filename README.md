@@ -53,3 +53,7 @@ For both sensors, once it is triggered, it will report that it's being triggered
 The sketch takes this into account so that only the very first report of a trigger is used to kick off the sound play, and then once the sound is finished, a flag is reset to let the the sketch know it's ready to play another file when the sensor is tripped.  If the sensor is tripped or is still reporting being tripped while a sound is playing, it will be ignored. This stops a bunch of sounds from being played at once due to the repeated reports of the sensor being triggered.
 
 
+## Circuit
+Below is a diagram of the circuit wiring.  I would suggest setting putting all this on a [prototyping board](https://www.amazon.com/gp/product/B01M7R5YIB/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01M7R5YIB&linkCode=as2&tag=becauseinterw-20&linkId=a01be9c183a31806452841fcad9ce93a) to make it easier to install in your setup.
+
+![Circuit Diagram](diagram.png)
