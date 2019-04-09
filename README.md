@@ -2,11 +2,11 @@
 # Motion Activated Sound Player
 This simple project builds a motion activated sound player.  Each time motion is sensed, an MP3 file is played.  I built this originally to play a random sound for my B1 Battle Droid (from the awesome Sean Fields at Project842...look him up on Facebook!), but it can be used in pretty much any project that requires motion detection.
 
-The following components are needed:
+The following components are needed (links are my Amazon affiliate links ;) ):
 
 * Arduino (Uno or [Nano](https://www.amazon.com/gp/product/B07D5B3ZGX?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B07D5B3ZGX) for the 5V output pin)
 * PIR (Passive Infrared) sensor such as [HC-SR501](https://www.amazon.com/gp/product/B012ZZ4LPM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B012ZZ4LPM&linkCode=as2&tag=becauseinterw-20&linkId=7f162de77ee86479375fec4c83243bf7) or [HC-SR505](https://www.amazon.com/gp/product/B07DW49X56?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B07DW49X56)
-* DFPlayer Mini (for MP3) and Micro SD card
+* [DFPlayer Mini](https://www.amazon.com/gp/product/B01MQ0GFZV?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B01MQ0GFZV) (for MP3) and [Micro SD card](https://www.amazon.com/gp/product/B010Q57SEE?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B010Q57SEE)
 * Amp board or circuit (such as a [PAM8403](https://www.amazon.com/gp/product/B01DKAI51M?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B01DKAI51M))
 * Speaker
 
