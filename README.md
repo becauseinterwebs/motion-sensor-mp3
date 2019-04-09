@@ -54,6 +54,6 @@ The sketch takes this into account so that only the very first report of a trigg
 
 
 ## Circuit
-Below is a diagram of the circuit wiring.  I would suggest setting putting all this on a [prototyping board](https://www.amazon.com/gp/product/B01M7R5YIB/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01M7R5YIB&linkCode=as2&tag=becauseinterw-20&linkId=a01be9c183a31806452841fcad9ce93a) to make it easier to install in your setup.
+Below is a diagram of the circuit wiring.  I would suggest putting all of this on a [prototyping board](https://www.amazon.com/gp/product/B01M7R5YIB/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01M7R5YIB&linkCode=as2&tag=becauseinterw-20&linkId=a01be9c183a31806452841fcad9ce93a) to make it easier to install in your setup.
 
 ![Circuit Diagram](diagram.png)
