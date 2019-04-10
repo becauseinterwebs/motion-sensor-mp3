@@ -26,8 +26,6 @@ This is the maximum number of files your have loaded on your SD card.  For examp
 
 This is the volume for the DFPlayer.  It affects BOTH the speaker lines out AND the DAC lines.  You could also add a potentiometer and modify the sketch to read that and set the volume, but if you add an amplifier board with a volume control, just set this to 30 (max) and use the volume control on the amplifier.
 
-```SoftwareSerial DFSerial(8, 9);```
-
 ## Adding the Sound Files
 The DFPlayer is a great mult-purpose MP3 player and is easy to use, but it DOES have some quirks:
 * Files must be named with leading zeros. *For example: 0001.mp3 or 0020.mp3*
