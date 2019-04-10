@@ -26,9 +26,6 @@ This is the maximum number of files your have loaded on your SD card.  For examp
 
 This is the volume for the DFPlayer.  It affects BOTH the speaker lines out AND the DAC lines.  You could also add a potentiometer and modify the sketch to read that and set the volume, but if you add an amplifier board with a volume control, just set this to 30 (max) and use the volume control on the amplifier.
 
-### Arduino Mini
-If you are using an Arduino Mini/Pro Mini, you'll need to update the digital pins used for the serial communication between the Arduino and DFPlayer.  Simply wire the RX pin of the DFPlayer to pin D9 on the Arduino, and the TX pin to D8, then change the following line:
-
 ```SoftwareSerial DFSerial(8, 9);```
 
 ## Adding the Sound Files
