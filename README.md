@@ -13,7 +13,7 @@ The following components are needed (links are my Amazon affiliate links ;) ):
 The DFPlayer has a built-in amp, but in a crowded room it might not be loud enough. Fortunately, it also has two (2) DAC outputs that you can run to an amplifier.
 
 ## Setup
-Follow the wiring diagram to build the sensing circuit. Then edit, compile and load the Arduino sketch. You'll need to install the [DFPlayer libary](https://github.com/DFRobot/DFRobotDFPlayerMini/archive/1.0.3.zip) in your Arduino IDE.
+Follow the wiring diagram to build the sensing circuit. Then edit, compile and load the Arduino sketch. You'll need to install the [DFPlayer libary](https://github.com/DFRobot/DFRobotDFPlayerMini) in your Arduino IDE (you can also use the Library Manager in the Arduino IDE and search for 'DFPlayer.')
 
 ## Sketch Modifications
 You'll need to edit a couple settings in the sketch to match your setup:
