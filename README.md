@@ -1,6 +1,6 @@
 
 # Motion Activated Sound Player
-This simple project builds a motion activated sound player.  Each time motion is sensed, an MP3 file is played.  I built this originally to play a random sound for my B1 Battle Droid (from the awesome Sean Fields at Project842...look him up on Facebook!), but it can be used in pretty much any project that requires motion detection.
+This simple project builds a motion activated sound player.  Each time motion is sensed, an MP3 file is played.  I built this originally to play a random sound for my B1 Battle Droid (from the awesome Sean Fields at [Project842](https://www.etsy.com/shop/Project842)...look him up on [Facebook](https://www.facebook.com/Project842/)!), but it can be used in pretty much any project that requires motion detection.
 
 The following components are needed (links are my Amazon affiliate links ;) ):
 
