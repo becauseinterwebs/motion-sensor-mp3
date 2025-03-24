@@ -6,7 +6,7 @@ The following components are needed (links are my Amazon affiliate links ;) ):
 
 * Arduino [Uno](https://www.amazon.com/gp/product/B01EWOE0UU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01EWOE0UU&linkCode=as2&tag=becauseinterw-20&linkId=5a3ff39cbeda2af36acdc02d5aac1787), [Nano](https://www.amazon.com/gp/product/B07D5B3ZGX?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B07D5B3ZGX) or [Mini](https://www.amazon.com/gp/product/B00E87VWQW/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00E87VWQW&linkCode=as2&tag=becauseinterw-20&linkId=3f4a0d20c0498778e8aceed71cba8aaf).
 * PIR (Passive Infrared) sensor such as [HC-SR501](https://www.amazon.com/gp/product/B012ZZ4LPM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B012ZZ4LPM&linkCode=as2&tag=becauseinterw-20&linkId=7f162de77ee86479375fec4c83243bf7) or [HC-SR505](https://www.amazon.com/gp/product/B07DW49X56?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B07DW49X56)
-* [DFPlayer Mini](https://www.amazon.com/gp/product/B01MQ0GFZV?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B01MQ0GFZV) (for MP3) and [Micro SD card](https://www.amazon.com/gp/product/B010Q57SEE?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B010Q57SEE)
+* [DFPlayer Mini]([https://www.amazon.com/gp/product/B01MQ0GFZV?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B01MQ0GFZV](https://amzn.to/41PScWA)) (for MP3) and [Micro SD card](https://www.amazon.com/gp/product/B010Q57SEE?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B010Q57SEE)
 * Amp board or circuit (such as a [PAM8403](https://www.amazon.com/gp/product/B01DKAI51M?ie=UTF8&tag=becauseinterw-20&camp=1789&linkCode=xm2&creativeASIN=B01DKAI51M)) - this is optional, but will give you much more volume.
 * Speaker
 
@@ -27,7 +27,7 @@ This is the maximum number of files your have loaded on your SD card.  For examp
 This is the volume for the DFPlayer.  It affects BOTH the speaker lines out AND the DAC lines.  You could also add a potentiometer and modify the sketch to read that and set the volume, but if you add an amplifier board with a volume control, just set this to 30 (max) and use the volume control on the amplifier.
 
 ## Adding the Sound Files
-The DFPlayer is a great mult-purpose MP3 player and is easy to use, but it DOES have some quirks:
+The DFPlayer is a great multi-purpose MP3 player and is easy to use, but it DOES have some quirks:
 * Files must be named with leading zeros. *For example: 0001.mp3 or 0020.mp3*
 * Despite the name of the file, DFPlayer will index the files according to the timestamp on the file, so you have to copy the files to the SD card in order from 0001 to ?? so that they are indexed the same as their file name.
 * If you copy the files using a Mac, it will also copy some hidden files that you'll need to clean by running:
