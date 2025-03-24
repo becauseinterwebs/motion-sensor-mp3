@@ -139,27 +139,29 @@ void playTrack(uint8_t track) {
 }
 
 // Check the current state of DFPlayer
+// You don't need all of these, they are 
+// just here to show all states.
 void checkState(uint8_t type, int value){
   switch (type) {
     case TimeOut:
-      Serial.println(F("Time Out!"));
+      Serial.println(F("Timeout"));
       break;
     case WrongStack:
-      Serial.println(F("Stack Wrong!"));
+      Serial.println(F("Stack error"));
       break;
     case DFPlayerCardInserted:
-      Serial.println(F("Card Inserted!"));
+      Serial.println(F("Card inserted"));
       break;
     case DFPlayerCardRemoved:
-      Serial.println(F("Card Removed!"));
+      Serial.println(F("Card removed"));
       break;
     case DFPlayerCardOnline:
-      Serial.println(F("Card Online!"));
+      Serial.println(F("Card online"));
       break;
     case DFPlayerPlayFinished:
       Serial.print(F("Number:"));
       Serial.print(value);
-      Serial.println(F(" Play Finished!"));
+      Serial.println(F("Finished playing"));
       canPlay = true;
       break;
     case DFPlayerError:
@@ -172,19 +174,19 @@ void checkState(uint8_t type, int value){
           Serial.println(F("Sleeping"));
           break;
         case SerialWrongStack:
-          Serial.println(F("Get Wrong Stack"));
+          Serial.println(F("Bad serial stack"));
           break;
         case CheckSumNotMatch:
-          Serial.println(F("Check Sum Not Match"));
+          Serial.println(F("Bad checksum"));
           break;
         case FileIndexOut:
-          Serial.println(F("File Index Out of Bound"));
+          Serial.println(F("File index out of bounds"));
           break;
         case FileMismatch:
-          Serial.println(F("Cannot Find File"));
+          Serial.println(F("File not found"));
           break;
         case Advertise:
-          Serial.println(F("In Advertise"));
+          Serial.println(F("Advertising..."));
           break;
         default:
           break;
